@@ -8,29 +8,29 @@
 <link rel="stylesheet" href="stylecadastro.css">
 </head>
 <body>
- 
+
 <div id="loader">
   <div class="loader-logo">AURUM</div>
   <div class="loader-bar"></div>
 </div>
- 
+
 <div class="cursor">
   <div class="cursor-dot"></div>
   <div class="cursor-ring"></div>
 </div>
- 
+
 <nav id="nav">
-  <a href="banco_aurum.html" class="nav-logo">AURUM <span>BANK</span></a>
-  <a href="banco_aurum.html" class="nav-back">Voltar ao site</a>
+  <a href="index.html" class="nav-logo">AURUM <span>BANK</span></a>
+  <a href="index.html" class="nav-back">Voltar ao site</a>
 </nav>
- 
+
 <div class="page">
- 
+
   <aside class="sidebar">
     <div class="sidebar-tag">Novo Cliente</div>
     <h1 class="sidebar-title">Abra sua<br><em>conta agora</em></h1>
     <p class="sidebar-desc">Processo 100% digital, sem burocracia. Preencha seus dados e nossa equipe entrará em contato em até 24 horas.</p>
- 
+
     <div class="steps-nav">
       <div class="step-item active" data-step="1">
         <div class="step-num">1</div>
@@ -47,23 +47,23 @@
         </div>
       </div>
     </div>
- 
+
     <div class="progress-track"><div class="progress-fill" id="pBar" style="width:50%"></div></div>
- 
+
     <div class="sidebar-footer">
       <div class="sidebar-secure">Conexão segura · Criptografia 256-bit</div>
     </div>
   </aside>
- 
+
   <main class="main">
- 
+
     <!-- PANEL 1 — Identificação -->
     <div class="panel active" id="panel1">
       <div class="panel-header">
         <div class="panel-step">Etapa 01 / 02</div>
         <h2 class="panel-title">Dados <em>pessoais</em></h2>
       </div>
- 
+
       <div class="section-label">Informações básicas</div>
       <div class="form-grid form-grid-2">
         <div class="field field-full" id="f-nome">
@@ -102,7 +102,7 @@
           </div>
         </div>
       </div>
- 
+
       <div class="section-label">Dados adicionais</div>
       <div class="form-grid form-grid-2">
         <div class="field" id="f-email">
@@ -134,7 +134,7 @@
           <span class="field-error">Selecione sua faixa de renda</span>
         </div>
       </div>
- 
+
       <div class="terms-block">
         <div class="terms-title">Termos e consentimento</div>
         <div class="term-row" id="trTermos">
@@ -149,20 +149,20 @@
         </div>
         <div id="termsErr">Você precisa aceitar os Termos de Uso para continuar.</div>
       </div>
- 
+
       <div class="form-actions">
         <div></div>
         <button class="btn-next" onclick="goReview()">Revisar dados →</button>
       </div>
     </div>
- 
+
     <!-- PANEL 2 — Revisão & Envio -->
     <div class="panel" id="panel2">
       <div class="panel-header">
         <div class="panel-step">Etapa 02 / 02</div>
         <h2 class="panel-title">Revise &amp; <em>confirme</em></h2>
       </div>
- 
+
       <div class="review-hero">
         <div class="review-avatar" id="revAvatar">—</div>
         <div>
@@ -170,23 +170,23 @@
           <div class="review-badges" id="revBadges"></div>
         </div>
       </div>
- 
+
       <div class="review-block">
         <div class="review-block-title">Informações básicas</div>
         <div id="sumBasico"></div>
       </div>
- 
+
       <div class="review-block">
         <div class="review-block-title">Dados adicionais</div>
         <div id="sumAdicional"></div>
       </div>
- 
+
       <div class="form-actions">
         <button class="btn-back" onclick="goBack()"><span class="line"></span> Corrigir dados</button>
         <button class="btn-next" onclick="submitForm()">Confirmar cadastro ✓</button>
       </div>
     </div>
- 
+
     <!-- SUCCESS -->
     <div class="panel" id="panelOk">
       <div class="success-panel">
@@ -196,13 +196,13 @@
         <div class="protocol" id="protNum">AURUM-2025-000000</div>
         <div class="success-note">Guarde este número de protocolo para acompanhar o status do seu cadastro.</div>
         <div class="success-actions">
-          <a href="banco_aurum.html" class="btn-next" style="text-decoration:none;display:inline-block;">Voltar ao site</a>
-          <a href="banco_aurum.html" class="btn-ghost-link">Conhecer planos</a>
+          <a href="index.html" class="btn-next" style="text-decoration:none;display:inline-block;">Voltar ao site</a>
+          <a href="index.html" class="btn-ghost-link">Conhecer planos</a>
         </div>
       </div>
     </div>
- 
+
   </main>
 </div>
- 
-<script src="scriptcadastro.js">
+
+<script src="scriptcadastro.js"></script>
