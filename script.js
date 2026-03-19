@@ -1,9 +1,5 @@
   // LOADER
-  window.addEventListener('load', () => {
-    setTimeout(() => {
-      document.getElementById('loader').classList.add('hidden');
-    }, 1800);
-  });
+  var _lh=false;function _hl(){if(_lh)return;_lh=true;document.getElementById('loader').classList.add('hidden');}setTimeout(_hl,1800);window.addEventListener('load',function(){setTimeout(_hl,1800);});
 
   // CURSOR
   const cursor = document.querySelector('.cursor');

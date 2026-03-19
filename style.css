@@ -1,4 +1,4 @@
- :root {
+  :root {
     --gold: #C9A84C;
     --gold-light: #E8C97A;
     --gold-dark: #8A6A1F;
@@ -447,6 +447,7 @@
   }
   .chart-tab.active { background: var(--gold); color: var(--black); border-color: var(--gold); }
 
+  .invest-content {}
   .invest-features { margin-top: 48px; display: flex; flex-direction: column; gap: 28px; }
   .invest-feature {
     display: flex; gap: 24px; align-items: flex-start;
